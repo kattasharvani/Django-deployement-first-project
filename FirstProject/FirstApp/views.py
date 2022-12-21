@@ -55,3 +55,10 @@ def f1(req):
     
 def f2(req):
     return HttpResponse("calls f2 Func From First App");
+
+#git function
+def git_view_func(request):
+	return HttpResponse("<h1> Hello from git hub view function</h1><hr/>");
+
+
+
